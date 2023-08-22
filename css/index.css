@@ -92,3 +92,13 @@ body{
 #team{
     background-color: #fff;
 }
+
+@media (max-width: 767px) {
+    #carouselExampleCaptions{
+        display: none;
+    }
+
+    .card{
+        margin-bottom: 10px;
+    }
+}
